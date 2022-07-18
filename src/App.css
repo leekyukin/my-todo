@@ -59,7 +59,7 @@ section {
 }
 
 .todo-row:hover {
-  box-shadow: 0.5rem 0 0.5rem white;
+  opacity: 0.4;
 }
 
 .todo-row:nth-child(4n+1) {

@@ -6,9 +6,7 @@ const TodoItem = (props) => {
   const {list, setList} = useContext(TodoContext);
 
   const removeItem = () => {
-    const idx = list.indexOf(props.item);
-    list.splice(idx, 1);
-    setList([...list]);
+
   }
 
   return (
